@@ -1,8 +1,6 @@
 # Emergency-Vehicle-Detection-using-Image-Processing
 ## Implementing Convolution Neural Networks to detect emergency vehicles on Indian roads
-
-Hack Vista Hackathon
-Team members- Kaushik S and Abhishek Raman
+rahul tiwari
 
 Problem Statement and solution- We propose a model that employs real time image processing for detection of emergency vehicles using a convolutional neural network (CNN) architecture. The signal control unit can be programmed to terminate the round robin sequence preferentially upon detection of an emergency vehicle.
 The described problem is addressed by training a CNN on a dataset  of images of ambulances in the Indian context. The deep learning platform used for training was TensorFlow, which is offered as a library in Python. 
@@ -17,6 +15,4 @@ Similarly, objectdetection2.jpg corresponds to the result obtained for amb2.jpg.
 
 The trained model can be validated on other images of ambulances by simply altering the path in Line 24 of objectdetection1.py.
 
-*Please download the frozen_inference_graph.pb (~181 MB) seperately and add it to the project directory. Please do not execute the program immediately after downloading it along with the .zip file.
-
-Youtube video link: https://youtu.be/9-y6Ta1Rw3I
+*Please download the frozen_inference_graph.pb (~181 MB) seperately and add it to the project directory.
